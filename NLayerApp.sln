@@ -11,9 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayerService", "NLayerServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerAPI", "NLayerAPI\NLayerAPI.csproj", "{F6FA8A37-CECD-42D1-B7BE-50FD97575E9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerWeb", "NLayerWeb\NLayerWeb.csproj", "{929AA314-2CE6-4498-B517-61C391AEBEF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayerWeb", "NLayerWeb\NLayerWeb.csproj", "{929AA314-2CE6-4498-B517-61C391AEBEF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerCaching", "NLayerCaching\NLayerCaching.csproj", "{C9749D3A-E346-49CF-A38B-9E836A90FD05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayerCaching", "NLayerCaching\NLayerCaching.csproj", "{C9749D3A-E346-49CF-A38B-9E836A90FD05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{431796D1-9009-4FA5-9C3E-10E59A9ADC85}"
+	ProjectSection(SolutionItems) = preProject
+		Ports.txt = Ports.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
