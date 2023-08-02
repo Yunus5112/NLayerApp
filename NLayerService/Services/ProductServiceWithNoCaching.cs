@@ -29,7 +29,6 @@ namespace NLayerService.Services
             var products = await _productRepository.GetProductsWithCategory();
             var productsDto = _mapper.Map<List<ProductWithCategoryDto>>(products);
             return CustomResponseDto<List<ProductWithCategoryDto>>.Success(200, productsDto);
-
         }
     }
 }
